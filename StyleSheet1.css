@@ -1,0 +1,138 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.header{
+    width:100%;
+    height:100px;
+    background-color:white;   
+    position:fixed;   
+    top:0;
+}
+.header-box {
+    width: 84%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-box >a > img{
+    width:40px;
+    height:40px;
+}
+.header-box  li{
+    display:inline;
+    margin: 0 15px 0 0;
+   
+}
+.header-box a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration:none;
+    color:black;
+}
+.header-box li:hover{
+    border-bottom:3px solid #078ff5;
+}
+.content {
+    width: 84%;
+    height:800px;
+    margin:100px auto 0;
+    display:flex;
+}
+.contentdangnhap {
+    width: 84%;
+    height: 1000px;
+    margin: 100px auto 0;
+    display: flex;
+}
+.content-box {
+    width: 50%;
+    height: 100%;
+    
+}
+.content-box h1 {
+    background: linear-gradient( 81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    font-size: 90px;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight:100;
+    margin:150px 0 20px 0;
+}
+.sp {
+    color: #595959;
+}
+.content-box button {
+    padding: 2px 20px;
+    color: white;
+    background-color: #0084ff;
+    border: none;
+    font-size:20px;
+    margin-top:20px;
+    border-radius:24px;
+    height:40px;
+}
+.content-box button:hover {
+    background-color: #07368a;
+}
+.content-box button a{
+    color:white;
+    text-decoration:none;
+}
+.w{
+    width:100%;
+    height:100%;
+}
+.m {
+    width: 120px;
+    height: 44px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    bottom: 0;
+}
+.footer-box {
+    width: 84%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:14px;
+}
+.sun,.lg{
+    color: black;
+    display:flex;
+    text-align:center;
+}
+.sun a{
+    color:black;
+    text-decoration:none;
+}
+.fb{
+    left:20px;
+    margin-left:-8%;
+    text-align:center;
+}
+.tk,.mk{
+    padding:8px 24px;
+    outline:none;
+    border-radius:5px;
+    margin: 0 0 16px;
+    border:1px solid #c6c2c2;
+    width:250px;
+}
+.tk:focus, .mk:focus {
+    border: 1px solid #0a7cff;
+        
+}
+.the a {
+    font-weight: bold;
+    color: #0a7cff;
+}
